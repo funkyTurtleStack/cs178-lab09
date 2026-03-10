@@ -33,3 +33,10 @@ def print_all_songs():
     print(f"Found {len(items)} song(s): \n")
     for song in items:
         print_song(song)
+
+def main():
+    print("=-=-=-=-= Reading from DynamoDB =-=-=-=-=\n")
+    print_all_songs()
+
+if __name__ == "__main__":
+    main()
